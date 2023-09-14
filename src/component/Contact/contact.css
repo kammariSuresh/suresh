@@ -1,0 +1,92 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 70vw;
+    margin: 0 auto;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contactPageTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    border-bottom: 3px white solid;
+}
+
+.contactDesc{
+padding: 1rem;
+font-size: medium;
+font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 60vw;
+
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin: 1rem;
+}
+
+.submitBtn:hover{
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+    margin-bottom: 0px;
+    color: white;
+    
+}
+
+.link:hover{
+    color: rgb(91, 91, 152);
+}
