@@ -43,7 +43,7 @@ const Contact = () => {
                 <div className='links' >
                         <a href='https://www.linkedin.com/in/kammarisuresh/'><BsLinkedin className='link'/></a>
                         <a href='https://github.com/kammariSuresh'><FaGithubSquare className='link'/></a>
-                        <a href='https://kcharyprojects.ccbp.tech/' target="_blank" rel="noreferrer" className='link'><VscGitPullRequestGoToChanges className='link'/></a>
+                        <a href='https://kcharyprojects.ccbp.tech/' target="_blank" rel="noreferrer" ><VscGitPullRequestGoToChanges className='link'/></a>
 
                         {/* <a href='https://www.facebook.com/suresh.chary.16144/photos'><ImFacebook2 className='link'/></a> */}
                      </div>

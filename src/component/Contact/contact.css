@@ -1,5 +1,5 @@
 #contactPage{
-    min-height: calc(100vh - 4rem);
+    min-height: calc(100vh - 10rem);
     width: 100vw;
     max-width: 70vw;
     margin: 0 auto;
@@ -74,14 +74,14 @@ font-weight: 300;
 .links{
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 
 .link{
     object-fit: cover;
     height: 3rem;
     width: 3rem;
-    margin: 0.5rem;
+    margin-left: 20px;
     margin-bottom: 0px;
     color: white;
     

@@ -1,15 +1,22 @@
 
 import React from 'react'
-import { Link } from 'react-scroll'
+
 import {TfiNewWindow} from  'react-icons/tfi'
-import {BiRightArrowAlt} from 'react-icons/bi'
+// import {BiRightArrowAlt} from 'react-icons/bi'
 import image from '../../assets/suresh.png'
 import './intro.css'
 
 const Intro = () => {
-
+    const onClickgetElement = () => {
+        document.getElementById("contact").scrollIntoView({behavioor: 'smooth'});
+        
+    }
      
-
+    // const openPdf = () => {
+    //     window.open("resume.pdf", "_blank")
+    // }
+    
+  
     return (
         <section id='intro'>
             <div className='introContent'>
@@ -21,17 +28,20 @@ const Intro = () => {
                 <p className='introPara'>I am a skilled MERN Stack Developer,I have Hands on experience in the field. 
                 I specialize in front-end development and back-end development. 
                 I am always looking to learn and grow as a developer. </p>
-          <div>
-          <Link> <button className='btn'>
+                
+          <div className='hireMebtn'>
+          <button type='button' className='btn' onClick={onClickgetElement}> 
             <TfiNewWindow className='btnImg'/> Hire Me
-            </button></Link>
+            </button>
 
-            <Link> <button className='btn'>
-             Resume <BiRightArrowAlt/>
-            </button></Link>
+            {/* <button type='button' onClick={openPdf} className='btn'>
+                  Resume <BiRightArrowAlt/>
+            </button> */}
             </div>
+            
             </div>
             <img src={image} alt='SURESH' className='bg' />
+            
         </section>
     )
 }

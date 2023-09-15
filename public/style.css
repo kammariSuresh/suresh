@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding:  auto;
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
@@ -12,4 +12,6 @@ body{
     color: white;
     overflow: hidden;
     overflow-y: scroll ;
+    overflow-x: hidden;
+    overflow-block:scroll ;
 }

@@ -5,7 +5,7 @@ import Projects from "./component/Works/work"
 import Contact from "./component/Contact/contact"
 import Footer from './component/Footer/footer'
 
-
+import './App.css'
 
 
 const App = () => {

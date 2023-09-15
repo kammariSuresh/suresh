@@ -4,7 +4,7 @@
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 1rem 1.2rem;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,12 +19,14 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    margin-left: 1rem;
 }
 
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
     color: white;
+    text-decoration: none;
     
 }
 
@@ -35,7 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 8px;
+    margin-right: 2rem;
     border: none;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -44,9 +47,8 @@
 
 .desktopMenuBtn:hover{
     background-color: aquamarine;
+    transition-duration: 5s;
     
-    margin-bottom: 10px;
-    margin-left: 10px;
 }
 
 .desktopMenuListItem:hover {
@@ -70,6 +72,7 @@
     display: none;
     object-fit: cover;
     height: 2rem;
+    margin-right: 1rem;
 }
 
 @media screen and (max-width:720px) {
@@ -136,5 +139,6 @@
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background: rgb(30, 30, 30);
+    text-decoration: none;
 }
 

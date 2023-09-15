@@ -1,20 +1,24 @@
 #intro {
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg{
     position: absolute ;
-    top: -4rem;
+    top: -5rem;
     right: 0;
     transition-duration: 10s;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    
+ 
     max-width: 45vw;
    
     border: 10px solid white;
@@ -73,6 +77,11 @@
     text-align: center;
 }
 
+.hireMebtn{
+    width: 19rem;
+
+}
+
 .btnImg{
     object-fit: cover;
     margin: 0 10px;
@@ -95,10 +104,9 @@
 
 @media screen and (max-width:780px) {
     .bg{
-        right: -10vw;
+        
         display: none;
-        height: 100vh;
-        width: 50vw;
+        
     }
   
     
@@ -142,21 +150,12 @@
     }
 }
 
-@media screen and (max-width:390px) {
-    .bg{
-        right: -20vw;
-    }
-
-
-   
-}
 
 @media screen and (max-width:780px) {
     .bg{
-        right: -10vw;
+        
         display: none;
-        height: 100vh;
-        width: 50vw;
+        
     }
     
 

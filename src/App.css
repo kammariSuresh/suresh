@@ -1,3 +1,6 @@
 .App{
     width: fit-content !important;
+    background-color: rgb(30, 30, 30);
+    color: white;
 }
+
